@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_jcs_aging_payable_report_sl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Aging Payable Report</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/JCurve/AgingPayableReport_SL.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_jcs_aging_payable_report_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>Aging Payable Report</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
